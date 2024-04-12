@@ -2,7 +2,7 @@
 Creando contenido desde REACT
 
 ## Pasos a seguir 
-Seguimos aprovechando el repositorio de back de las `task` que hemos usado para poder añadir tareas desde POSTMAN. Ahora vamos a añadir tareas perodesde `REACT`
+Seguimos aprovechando el repositorio de back de las `task` que hemos usado para poder añadir tareas desde POSTMAN. Ahora vamos a añadir tareas desde `REACT`
 
 Lo primero que tienes que comprobar es si la URL donde tienes levantado tu BACK es la misma que está en APP haciendo el `fetch`. Levanta el `BACK` y este `FRONT`para comprobar que funciona y traes las tareas creadas entes. Una vez hecho esto deberás hacer lo siguiente
 
