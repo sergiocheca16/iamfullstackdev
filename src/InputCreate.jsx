@@ -7,7 +7,7 @@ const InputCreate = ({ onTaskCreated }) => {
     e.preventDefault();
     if (!task.trim()) return;
 
-    const urlApi = "http://localhost:3000/create"; // Endpoint correcto
+    const urlApi = "http://localhost:3000/create";
     const payload = { title: task };
 
     try {
@@ -21,8 +21,8 @@ const InputCreate = ({ onTaskCreated }) => {
         throw new Error("Error al crear la tarea");
       }
 
-      setTask(""); // Limpiar input después de enviar
-      onTaskCreated(); // Recargar lista de tareas
+      setTask("");
+      onTaskCreated();
     } catch (error) {
       console.error("Hubo un error:", error);
     }
